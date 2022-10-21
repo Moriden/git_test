@@ -1,3 +1,7 @@
-.header-manga, .header-anime {
-    background-color: darkgoldenrod;
+<body>
+
+a.header-manga, .header-anime {
+    color: darkgoldenrod;
 }
+</body>
+
