@@ -22,30 +22,36 @@
 }
 
 .animation {
-    width:500px;
-    height:500px;
+    width:560px;
+    height:550px;
+    margin: 30px;
 }
 
-.item1-header {
+.header {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
-    color: black;
-    background-color: whitesmoke;
-    border: 1.5px solid black;
-    border-radius: 20px;
+    color: whitesmoke;
+    background-color: transparent;
+    border: 1.5px solid white;
+    border-radius: 25px;
     padding-left: 5px;
     padding-right: 5px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    cursor: pointer; 
+    padding-top: 4px;
+    padding-bottom: 5px;
+    cursor: pointer;
     position:relative;
-    left:50px;
-    top: 50px;
-    bottom: 300px;
+    right:980px;
+    bottom:20px
 }
 
-.item1-header:hover {
+.header:hover {
     background-color: black;
     color:white;
     opacity: 50px;
+}
+
+.anime{
+    position:relative;
+    right:450px;
+    bottom:20px; 
 }
