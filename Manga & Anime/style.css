@@ -38,8 +38,20 @@ body{
     z-index:-1
 }
 
-.header a{
+.header video{
     display:block;
+    width:40%;
+    position:relative;
+    color:black;
+    background-color:rgb(255, 255, 255);
+    font-size: 25px;
+    margin:3px;
+    
+    
+}
+
+.header a{
+    display:-block;
     width:fit-content;
     position:relative;
     color:black;
