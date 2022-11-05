@@ -1,66 +1,64 @@
 a{
-text-decoration:none;               
-}
-
-body{
-    margin:0;
-    padding:0;                      
-    box-sizing: border-box; 
-    font-family:'Poppins', sans-serif;
-}
-
-.container{
-    width: 100%;
-    min-height:100vh;
-    display:flex;                          
-    align-items: center;
-    justify-content: center; 
-}
-
-/* header section */
-.header{
-    background-image: url("background main.png");
-    background-size:cover;
-    background-position: center;
-    position:relative;  
-}
-
-.header .video{
-    position:absolute;
-    right: 700px;
-    width:550px;
-    height:308px;
-    border: .9px solid white;
-    margin: 30px;
-}
-
-.header .two{
-    left: 700px;
-}
-
-.header .link{
-    position:relative;
-    display:block;
-    right:230px;
-    top:20px;
-    color:black;
-    background-color:white;
-    border-radius:2.5em;
-    font-size: 25px;
-    border:1px solid black;
-    border-radius: 5em;
-    padding:10px 30px;
-    transition:1s ease;
-    transition-delay: .2s;
-}
-
-.header .b{
-    left:220px;
-}
-
-.link:hover{
-    color:white;
-    background-color:black;
-    border: 1px solid white;
-} 
-/* End eyes section */
+    text-decoration:none;               
+    }
+    
+    body{
+        margin:0;
+        padding:0;                      
+        box-sizing: border-box; 
+        font-family:'Poppins', sans-serif;
+    }
+    
+    .container{
+        width: 100%;
+        min-height:100vh;
+        display:flex;                          
+        align-items: center;
+        justify-content: center; 
+       
+    }
+    
+    /* header section */
+    .header{
+        background-image: url("background main.png");
+        background-size:cover;
+        background-position: center;
+        position:relative;  
+    }
+    
+    .header .video{
+        position:relative;
+        left:150px;
+        width:640px;
+        height:360px;
+        border: .9px solid white;
+        margin: 20px;
+    }
+    
+    .header .link{
+        position:relative;
+   
+        right:920px;
+      
+        color:black;
+        background-color:white;
+        border-radius:2.5em;
+        font-size: 25px;
+        border:1px solid black;
+        border-radius: 5em;
+        padding:10px 30px;
+        transition:1s ease;
+        transition-delay: .2s;
+    }
+    
+    .header .b{
+        right:400px;
+    }
+    
+    .link:hover{
+        color:white;
+        background-color:black;
+        border: 1px solid white;
+          
+    } 
+    /* End eyes section */
