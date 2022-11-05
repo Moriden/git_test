@@ -15,7 +15,6 @@ body{
     display:flex;                          
     align-items: center;
     justify-content: center; 
-    flex-flow: row;
 }
 
 /* header section */
@@ -28,7 +27,6 @@ body{
 
 .header .video{
     position:absolute;
-    display:block;
     right: 700px;
     width:550px;
     height:308px;
@@ -64,6 +62,5 @@ body{
     color:white;
     background-color:black;
     border: 1px solid white;
-      
 } 
 /* End eyes section */
