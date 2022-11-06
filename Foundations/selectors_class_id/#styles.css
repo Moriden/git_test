@@ -1,0 +1,19 @@
+.odd{
+    background-color:red/pink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.special{
+    font-size:24px;
+}
+
+#one{
+    color:blue;
+    font-size:36px;
+}
+
+#trois{
+   background-color: greenyellow;
+   font-weight: bold;
+   font-size: 24px;
+}
