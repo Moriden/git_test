@@ -1,5 +1,5 @@
 .odd{
-    background-color:red/pink;
+    background-color:rgb(255, 164, 164);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -7,12 +7,13 @@
     font-size:24px;
 }
 
-#one{
+#two{
     color:blue;
     font-size:36px;
+    font-weight:bold;
 }
 
-#trois{
+#four{
    background-color: greenyellow;
    font-weight: bold;
    font-size: 24px;
