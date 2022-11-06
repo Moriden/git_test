@@ -28,11 +28,9 @@ a{
     
     .header .video{
         position:relative;
-        left:150px;
         width:640px;
         height:360px;
         border: .9px solid white;
-        margin: 20px;
     }
     
     .header .link{
