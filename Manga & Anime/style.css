@@ -30,9 +30,11 @@ a{
     
     .container .video{ 
         position:relative;
+        margin:30px;
         width:640px;
         height:360px;
         border: .9px solid white;
+        display:flex;
     }
     
     .video .link{
