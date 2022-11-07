@@ -35,9 +35,7 @@ a{
         border: .9px solid white;
     }
     
-    video > nav{
-       
-      
+    .video .link{
         color:black;
         background-color:white;
         border-radius:2.5em;
