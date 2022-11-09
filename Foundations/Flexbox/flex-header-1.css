@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.left-links, .right-links{ 
+    list-style-type: none;
+    flex-flow: row;
+    display:flex;
+    align-items: center;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+    padding:20px;
+}
+
+ul > li {
+    display:inline;
+    margin-right:40px;
+    padding:15px 25px;
+    background-color:white;
+    color: blue;
+}
