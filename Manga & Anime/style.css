@@ -57,7 +57,7 @@ a{
     background-color: black;
     border:1px solid white;
     color: white;
-    transition-property: border;
+    transition-property: border color background-color
     transition: 1s;
 }
 
@@ -75,17 +75,15 @@ a{
 }
 
 .video-links{
-    display:flex;
     list-style-type: none;
-    position: inherit;
-    background-color: aqua;
-    width:50vw;
+    display:flex;
+    position:absolute;
 }
 
 
-.video-links a{
-    
+.video-links > li{
     padding: 10px 10px 10px;
+    margin:400px;
     background-color:white;
     border: 1px solid black;
     border-radius: 10em;
@@ -94,11 +92,11 @@ a{
     transition: 1s;
 }
 
-.video-links > li > a:hover{
+.video-links > li > .link:hover{
     background-color: black;
     border:1px solid white;
     color: white;
-    transition-property: border;
+    
     transition: 1s;
 }
     
