@@ -16,7 +16,9 @@ a {
     background-image: url("./images/header-background.png");
     background-position: cover;
     background: no-repeat;
+    filter:blur(4px)
 }
+
 
 .header-container{
     display: flex;
@@ -108,8 +110,7 @@ a {
 
 .intersection-container{
     display: flex;
-    background:rgb(0, 31, 31); 
-    background: linear-gradient(rgb(0, 117, 117), rgb(0, 50, 50) 100%, rgba(0, 117, 117));
+    background: linear-gradient(hsl(0, 56%, 78%), rgb(129, 204, 234));
     width:100vw;
     height:30vh;
     justify-content: center;
@@ -140,26 +141,55 @@ a {
 .introduction{
     display: flex;
     position: absolute;
-    background-color: white;
     opacity: 10px;
     justify-content: space-between;
     align-items: center;
-    width:80%;
-    height: 60%;
-}
-
-.box1, .box2{
+    width:90vw;
+    height: 90vh; 
     
-    width:90px;
-    height:90px; 
 }
 
-.box1{
-    background-color: aqua;
+.box1, .box2, .box3, .box4{
+    width:550px;
+    height:550px; 
+    border: 2px solid black;
+    border-radius: 5em;
+    position:relative;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
 }
+
+.citation{
+    color:white;
+    font-size: 25px;
+    font-family: "Istok Web", sans-serif;
+    width:400px;
+    height: 520px;
+    text-align:left;
+    padding:20px 30px;
+   
+    
+    
+     
+}
+
+
 
 .box2{
-    background-color: red;
-    
-    
+    background-color: black;
+    right:400px;
+    bottom:40px;
 }
+
+
+
+.box3{
+    background-color: black;
+    left:400px;
+    bottom:40px;
+    
+   
+}
+
+
