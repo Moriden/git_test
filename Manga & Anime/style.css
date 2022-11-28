@@ -219,13 +219,12 @@ a {
     align-items: flex-end;
     margin-left:20px;
     margin-top: 40px;
-   
+    color: white;
 }
 
 .text{
     margin-bottom: 30px;
     font-size: 20px;
-    color: white;
 }
 
 .boxf{
