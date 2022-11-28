@@ -12,14 +12,6 @@ a {
 
 /*start header*/
 
-.background{
-    background-image: url("./images/header-background.png");
-    background-position: cover;
-    background: no-repeat;
-    filter:blur(4px)
-}
-
-
 .header-container{
     display: flex;
 }
@@ -111,7 +103,6 @@ a {
 .intersection-container{
     display: flex;
     background: linear-gradient(hsl(0, 56%, 78%), rgb(129, 204, 234));
-    width:100vw;
     height:30vh;
     justify-content: center;
     align-items: center;
@@ -121,15 +112,12 @@ a {
     color: white;
     justify-content: center;
     font-size: 5em;
-
 }
 
 /*start introduction*/
 
-.background{
-    background-image: url("./images/introduction-background.jpg");
-    background-position: cover;
-    background: no-repeat;
+.background2{
+    filter:blur(4px);
 }
 
 .introduction-container{
@@ -145,13 +133,11 @@ a {
     justify-content: space-between;
     align-items: center;
     width:90vw;
-    height: 90vh; 
-    
 }
 
 .box1, .box2, .box3, .box4{
     width:550px;
-    height:550px; 
+    height:500px; 
     border: 2px solid black;
     border-radius: 6em;
     position:relative;
@@ -165,10 +151,9 @@ a {
     font-size: 25px;
     font-family: "Istok Web", sans-serif;
     width:400px;
-    height: 520px;
+    height: 500px;
     text-align:left;
     padding:30px 30px;
-  
 }
 
 .box2{
@@ -181,9 +166,81 @@ a {
     background-color: black;
     left:400px;
     bottom:40px;
-    z-index:2;
-    
+    z-index:1;
+}
+
+/*end header*/
+
+/*start footer*/
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items:center
+}
+
+.shadow{
+    position: absolute;
+    background-color: black;
+    border-radius:20px;
+    filter:opacity(40%);
+    width:90vw;
+    height:50vh;  
+}
+
+.footer-a{
+    display: inline-block;
+    position: absolute;
+    left: 100px;
+    margin-top: 30px;
+    width:50vw;
+    height: 50vh;
+    color:white;
+}
+
+.footer-item{
+    padding:20px;
+    font-size:20px;
+}
+
+.boxa{
+    font-size: 30px;
+    font-family: "Istok Web", sans-serif;
+    font-weight: bold;
+}
+
+.boxe{
+    cursor: pointer;
+}
+
+.footer-b{
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left:20px;
+    margin-top: 40px;
    
 }
+
+.text{
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+.boxf{
+    font-size: 20px;
+    padding: 15px; 
+}
+    
+    
+   
+  
+
+   
+
+
+
+
 
 
