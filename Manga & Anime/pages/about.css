@@ -57,7 +57,7 @@ a {
     transition: 1s;
 }
 
-.about-container{
+.intersection-container{
     display:flex;
     justify-content: center;
     align-items: center;
@@ -80,13 +80,30 @@ h3, .home{
 
 .separation{
     display: flex;
-    justify-self: center;
+    position: absolute;
+    left: 140px;
     border: 0.5px solid white;
-    width:50px;
-
-   
-   
+    width:40px; 
 }
 
+.menu-links .abt{
+    background-color: rgb(221, 30, 30);
+    color:white;
+}
 
+.text-container{
+
+}
+
+.text{
+
+}
+
+.box1{
+
+}
+
+.box2{
+
+}
 
