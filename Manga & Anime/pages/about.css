@@ -92,18 +92,42 @@ h3, .home{
 }
 
 .text-container{
-
+    display:flex;
 }
 
 .text{
+    display:flex;
+    justify-content: space-between;
+    padding:50px 50px;
+}
 
+.box1, .box2{
+    background-color:rgb(255, 173, 185);
+    margin: 50px;
+    padding:20px 20px;
+    padding-bottom:20px;
 }
 
 .box1{
-
+    flex:1.5;
 }
 
 .box2{
-
+    flex:3;
 }
 
+.citation{
+    font-size: 40px;
+    font-family: "Istok Web", sans-serif;
+    text-transform: uppercase; 
+    color:white;
+    font-weight:bold
+}
+
+p{
+    font-size: 20px;
+    padding-top: 40px;
+    text-transform: lowercase; 
+    color:black;
+    font-weight: normal;
+}
