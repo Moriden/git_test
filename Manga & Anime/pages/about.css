@@ -103,17 +103,21 @@ h3, .home{
 
 .box1, .box2{
     background-color:rgb(255, 173, 185);
+    background: linear-gradient(rgb(255, 173, 185), rgba(255, 0, 30, 0.637));
     margin: 50px;
     padding:20px 20px;
     padding-bottom:20px;
 }
 
 .box1{
-    flex:1.5;
+    flex:3;
 }
 
 .box2{
-    flex:3;
+    flex:2;
+    align-self: center;
+    
+
 }
 
 .citation{
@@ -128,6 +132,7 @@ p{
     font-size: 20px;
     padding-top: 40px;
     text-transform: lowercase; 
+    line-height: 1.5;
     color:black;
     font-weight: normal;
 }
