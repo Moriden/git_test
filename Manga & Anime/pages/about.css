@@ -12,9 +12,6 @@ a {
 
 /*start header*/
 
-.header-container{
-    display:flex; 
-}
 
 .header{
     position:fixed;
@@ -49,12 +46,25 @@ a {
     transition: 1s;
 }
 
-.menu-links a:hover{
+.cnt:hover{
     background-color: black;
     border:1px solid white;
     color: white;
     transition-property: border color background-color;
     transition: 1s;
+}
+
+.clt:hover{
+    background-color: black;
+    border:1px solid white;
+    color: white;
+    transition-property: border color background-color;
+    transition: 1s;
+}
+
+.menu-links .abt{
+    background-color: rgb(221, 30, 30);
+    color:white;
 }
 
 .intersection-container{
@@ -86,11 +96,6 @@ h3, .home{
     width:40px; 
 }
 
-.menu-links .abt{
-    background-color: rgb(221, 30, 30);
-    color:white;
-}
-
 .text-container{
     display:flex;
 }
@@ -116,8 +121,6 @@ h3, .home{
 .box2{
     flex:2;
     align-self: center;
-    
-
 }
 
 .citation{
