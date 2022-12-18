@@ -100,7 +100,7 @@ h3, .home{
     display:flex;
     width:100vw;
     justify-content: space-between;
-    padding:50px 50px;
+    padding:100px 100px;
 }
 
 .circle1, .circle2{
@@ -114,8 +114,12 @@ h3, .home{
 .circle2{
     align-self: flex-end;
 }
-
 .food, .sport{
+    overflow:hidden;
+}
+
+.food:hover, .sport:hover {
+    overflow:hidden;
     font-size: 10px;
     font-family: "Istok Web", sans-serif;
     text-transform: uppercase; 
@@ -129,7 +133,10 @@ h3, .home{
     line-height:15px;
 }
 
-p{
+
+
+
+ p {
     padding-bottom:30px;
     font-size:20px;
     line-height:20px;
