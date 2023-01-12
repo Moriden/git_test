@@ -114,8 +114,9 @@ h3, .home{
 .circle2{
     align-self: flex-end;
 }
+
 .food, .sport{
-    overflow:hidden;
+    overflow: hidden;
 }
 
 .food:hover, .sport:hover {
@@ -132,9 +133,6 @@ h3, .home{
     padding:40px;
     line-height:15px;
 }
-
-
-
 
  p {
     padding-bottom:30px;
