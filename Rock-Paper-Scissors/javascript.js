@@ -1,2 +1,7 @@
-for (let i=0; i<= 50; i++) {
-console.log(i);}
+function playRound (playerSelection, computerSelection) {
+    return playerSelection, computerSelection
+}
+
+let playerSelection = "rock";
+let computerSelection = "random()";
+console.log(playRound("playerSelector, computerSelection"));
