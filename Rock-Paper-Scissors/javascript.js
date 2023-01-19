@@ -15,7 +15,7 @@ userChoice.textContent = `user" ${user}`;
 computerChoice.textContent = `computer ${computer}`;
 result.textContent = checkWinner();
 }));
-s
+
 function computerTurn(){
     const randNum = Math.floor(Math.random() *3);
 
@@ -34,18 +34,18 @@ function computerTurn(){
 
 function checkWinner() {
     if (user == computer){
-return "Draw";
+return "Draw"
 }
 
 else if (computer == "ROCK") {
-return (user == "PAPER") ? "You win" : "You lose";
+return (user == "PAPER") ? "You win" : "You lose"
 }
 
 else if (computer == "PAPER"){
-    return (user == "SCISSORS") ? "You win" : "You lose";
+    return (user == "SCISSORS") ? "You win" : "You lose"
 }
 
 else if (computer == "SCISSORS"){
-    return (user == "ROCK") ? "You win" : "You lose";
+    return (user == "ROCK") ? "You win" : "You lose"
 }
 };
