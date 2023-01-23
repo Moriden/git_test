@@ -115,12 +115,12 @@ h3, .home{
     align-self: flex-end;
 }
 
-.food, .sport{
-    overflow: hidden;
+.reveal-food, .reveal-sport{
+    display:block;
 }
 
-.food:hover, .sport:hover {
-    overflow:hidden;
+.hidden-food, .hidden-sport {
+    display:none;
     font-size: 10px;
     font-family: "Istok Web", sans-serif;
     text-transform: uppercase; 
@@ -134,7 +134,7 @@ h3, .home{
     line-height:15px;
 }
 
- p {
+ p{
     padding-bottom:30px;
     font-size:20px;
     line-height:20px;
