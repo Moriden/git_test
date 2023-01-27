@@ -115,12 +115,13 @@ h3, .home{
     align-self: flex-end;
 }
 
-.reveal-food, .reveal-sport{
-    display:block;
+.hidden-food, .hidden-sport{
+    display:none;
+   
 }
 
-.hidden-food, .hidden-sport {
-    display:none;
+.reveal-food, .reveal-sport {
+    display:block;
     font-size: 10px;
     font-family: "Istok Web", sans-serif;
     text-transform: uppercase; 
