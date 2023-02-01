@@ -1,10 +1,3 @@
-// select html files
-
-//const btn = document.querySelectorAll(".choiceBtn");
-//const player = document.querySelector(".playerChoice");
-//const computer = document.querySelector(".computerChoice");
-//const result = document.querySelector(".resultEnd");
-
 // get random  'rock 'paper 'scissors'
 let playerScore = 0;
 let computerScore = 0;
@@ -35,6 +28,8 @@ function game(playerChoice, computerChoice) {
 }
 }
 
+// result
+
 function winner() {
   if (playerScore > computerScore) {
     return `you won: ${playerScore} to ${computerScore}`;
@@ -45,6 +40,7 @@ function winner() {
     }
   }
 
+// 
 function playGame(playerChoice, computerChoice) {
   
   playerScore = 0;
