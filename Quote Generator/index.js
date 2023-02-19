@@ -1,6 +1,19 @@
-//variables
+const helloWorld = require('./helloWorld');
 
-let quote = document.querySelector(".text-area");
-let author = document.querySelector(".author");
-let btn = document.querySelector(".new-quote");
+describe('Hello World', function() {
+  test('says "Hello, World!"', function() {
+    expect(helloWorld()).toEqual('Hello, World!');
+  });
+});
 
+
+const helloWorld = function() {
+    return ''
+  }
+  module.exports = helloWorld
+
+
+  const helloWorld = function() {
+    return 'Hello, World!'
+  }
+  module.exports = helloWorld
