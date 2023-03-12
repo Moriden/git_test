@@ -32,18 +32,26 @@ function score () {
 };
 
 
-function gameSettings (playerChoice, computerChoice) {
-    for (let round = 0; round < 5; round++) {
-        const playerChoice = prompt ('choose', 'rock', 'paper', 'scissors');
-        const computerChoice = computerPick();
-        const result = playRound(computerChoice, playerChoice);
-        console.log("ME",playerChoice, "COMPUTER",computerChoice, '=', result);
-    }
-}
+rockBtn.addEventListener('click', () => {
+    playRound(rockBtn);
+
+        const paperBtn = document.querySelector('.paperBtn');
+
+        paperBtn.addEventListener('click', () => {
+            playRound(paperBtn);
+    
+            const scissorsBtn = document.querySelector('.scissorsBtn');
+
+        scissorsBtn.addEventListener('click', () => {
+            playRound(scissorsBtn);
+            
+            const resultsDiv = document.querySelector('#resultEnd');
+
+            function playRound(playerSelection) {
+              // ...
+              resultsDiv.textContent = `You chose ${playerSelection}. Computer chose ${computerSelection}. ${result}`;
+            }
 
 console.log(gameSettings());
 console.log(score());  
-
-
-
 
