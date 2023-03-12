@@ -32,49 +32,46 @@ function score () {
 };
 
 
-function gameSettings (playerChoice, computerChoice) {
-    for (let round = 0; round < 5; round++) {
-        const playerChoice = prompt ('choose', 'rock', 'paper', 'scissors');
-        const computerChoice = computerPick();
-        const result = playRound(computerChoice, playerChoice);
-        console.log("ME",playerChoice, "COMPUTER",computerChoice, '=', result);
-    }
-}
-
-console.log(gameSettings());
-console.log(score());  
-
-
-
 const rockBtn = document.querySelector('.rockBtn');
 
 rockBtn.addEventListener('click', () => {
-    playRound(rockBtn);
-    console.log(rock);
+    playRound(playerChoice(rockBtn));
+
 });
 
 const paperBtn = document.querySelector('.paperBtn');
 
 paperBtn.addEventListener('click', () => {
-playRound(paperBtn);
-console.log(paper);
+    playRound(playerChoice(paperBtn));
+
 });
 
 const scissorsBtn = document.querySelector('.scissorsBtn');
 
 scissorsBtn.addEventListener('click', () => {
-playRound(scissorsBtn);
-console.log(scissors);
-});
-            
-const resultsDiv = document.querySelector('#resultEnd');
-function playRound(playerSelection) {
-resultsDiv.textContent = `You chose ${playerSelection}, Computer chose ${computerSelection}, ${result}`;
-}
-      
+    playRound(playerChoice(scissorsBtn));
 
-const scoreDiv = document.querySelector('#score');
-const winnerDiv = document.querySelector('#winner');
-let playerScore = 0;
-let computerScore = 0;
+});
+
+console.log('rockBtn', 'paperBtn', 'scissorsBtn');
+
+
+function gameSettings (playerChoice, computerChoice) {
+    for (let round = 0; round < 5; round++) {
+
+const resultsDiv = document.querySelector('#resultEnd');
+        const resultsDiv = `You chose ${playerChoice}, Computer chose ${computerChoice}, "=" ${result}`;
+        const computerChoice = computerPick();
+        
+        function playRound (playerChoice, computerChoice) {
+            playerChoice = playerChoice.toLowerCase();
+        const winner = playRound(computerChoice, playerChoice);
+        console.log("ME",playerChoice, "COMPUTER",computerChoice, '=', result);
+    }
+}
+
+
+console.log(score());  
+console.log(gameSettings());
+console.log(winner());  
 
